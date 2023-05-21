@@ -1,0 +1,28 @@
+.locations-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5% 8%;
+    gap: 35px;
+}
+
+@media screen and (max-width:1000px) {
+    .locations-details {
+        margin: 7% 2%;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .locations-details {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 7% 3%;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .locations-details {
+        grid-template-columns: 100%;
+        margin: 7% 5%;
+    }
+}

@@ -1,0 +1,977 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intour</title>
+
+        <!-- google font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com/" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&amp;display=swap"
+  rel="stylesheet" />
+
+<!-- google metarial icon link -->
+<link
+  href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+  rel="stylesheet" />
+
+<!-- font awesome css link -->
+<link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+
+<!-- project global css -->
+<link rel="stylesheet" href="assets/css/global.css" />
+<link rel="stylesheet" href="assets/css/header.css" type="text/css" />
+<link rel="stylesheet" href="assets/css/footer.css" />
+
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+
+        <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+        <link href="../cdn.jsdelivr.net/npm/bootstrap%405.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css"
+            rel="stylesheet" id="bootstrap-css">
+
+        <link rel="stylesheet" href="assets/css/tours-global.css">
+        <link rel="stylesheet" href="assets/css/home.css">
+
+
+    </head>
+
+    <body>
+        <header>
+
+    <!-- this is top nav -->
+    <nav class="section-container-padding top-nav">
+
+        <div id="google_translate_element"></div>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <img src="assets/images/icon-facebook.png" alt="FaceBook Icon" height="25" width="25" />
+            </a>
+
+            <a
+                href="#">
+                <img src="assets/images/icon-tripadvisor.png" alt="TripAdvisor Icon" height="25" width="25" />
+            </a>
+
+            <a href="#">
+                <img src="assets/images/icon-instagram.png" alt="Instagram Icon" height="25" width="25" />
+            </a>
+
+          
+          
+      
+          
+           <a href="#" class="search-btn" style="color:#fff; padding:4px 10px; font-size:14px;" >Plan My Tour</a>
+
+          
+          
+
+
+        </div>
+
+
+    </nav>
+
+    <!-- in this navbar logo and menu -->
+
+    <nav class="section-container-padding navbar">
+
+
+        <img src="./img/intour-logo-removebg-preview.png" width="200px" onclick="window.location.href='index.html'">
+
+
+        <div class="header-menu">
+            <ul class="header-menu-container" id="header-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+                <li class="tour-li">
+                    <a href="tours.html" class="show-dropdown">Tours</a>
+
+                    <ul class="tour-dropdown">
+
+                                                <li>
+                            <a class="tour-link" href="#golden_tour">
+                                Golden Triangle Tours                            </a>
+                        </li>
+                                                <li>
+                            <a class="tour-link" href="#oneday_tour">
+                                One Day Tours                            </a>
+                        </li>
+                                                <li>
+                            <a class="tour-link" href="#rajshthan_tour">
+                                Rajasthan Tours                            </a>
+                        </li>
+                                            </ul>
+
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+              
+
+            </ul>
+
+
+     	   <a href="tel:6387688364" class="header-phone" >
+                <i class="fas fa-phone-alt"></i> +91 6387688364
+           </a>
+
+            <!-- only visible for max width:750px -->
+            <div class="menu">
+                <i class="fas fa-bars" onclick="open_menu(this);"></i>
+            </div>
+        </div>
+
+    </nav>
+
+</header>
+
+<div class="header-space">
+
+</div>
+
+        <main>
+            <!-- this is image of taj with height 530px -->
+            <div class="taj-bg">
+
+                <!-- this div is only for blue effect purpose -->
+                <div class="main">
+
+
+                </div>
+
+                <!-- please set the position of main-header-content, this is moving with screen width -->
+                <div class="main-header-content">
+
+                    <h2>Ready to start your exciting journey.</h2>
+                    <p>Over 10 years of experience, a variety of tour packages, best deals and personalized services.
+                    </p>
+
+
+               
+
+                </div>
+
+            </div>
+
+
+
+            <section class="site-promote-section">
+
+                <div class="promote-div" id="promote-div">
+                    <a
+                        href="#">
+                        <img src="assets/images/s2.jpg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/s3.jpg">
+                    </a>
+                    <a href="#">
+                        <img src="assets/images/s1.jpg" style="height:65px;">
+                    </a>
+
+                </div>
+
+            </section>
+
+            <section class="section-container-padding home-tours" id="oneday_tour">
+
+                
+
+<p class="p-heading">Popular Travel Packages In</p>
+<h2 class="h1-heading">
+    One Day Tours</h2>
+
+<div class="locations-details">
+    <a href="tours/One-Day-Tours/same-day-taj-mahal-tour-by-train-gatiman-express-from-delhi.html">
+    <div class="tours-item">
+        <img src="img/HMy40rGARQqxkopzWFsyCKLNP.jpg" alt="From Delhi: Agra Tour by Fastest Train of India (Gatiman Express)" />
+
+        <div class="tours-info">
+            <p class="best_seller">BEST SELLER</p>                <div class="tours-info-icon">
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Agra,                    </p>
+                    <div>
+                        <div class="star-rating">
+
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            800 reviews
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="tours-title">
+                    From Delhi: Agra Tour by Fastest Train of India (Gatiman Express)                </p>
+
+                <div class="tours-info-icon">
+                    <p><i class="fas fa-stopwatch"></i>
+                        12 Hours                    </p>
+                    <p class="tours-rate">Starting At <b>$75.00 </b></p>
+                </div>
+        </div>
+    </div>
+</a>
+<a href="tours/One-Day-Tours/sunrise-Taj-mahal-tour-from-Delhi.html">
+    <div class="tours-item">
+        <img src="img/rOVsPISnEF9LRYhrcCdOYAkeF.jpg" alt="Sunrise Taj Mahal and Agra Tour by Car" />
+
+        <div class="tours-info">
+            <p class="best_seller">BEST SELLER</p>                <div class="tours-info-icon">
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Delhi,Agra,                    </p>
+                    <div>
+                        <div class="star-rating">
+
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>
+                            680 reviews
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="tours-title">
+                    Sunrise Taj Mahal and Agra Tour by Car                </p>
+
+                <div class="tours-info-icon">
+                    <p><i class="fas fa-stopwatch"></i>
+                        12 Hours                    </p>
+                    <p class="tours-rate">Starting At <b>$42.00 </b></p>
+                </div>
+        </div>
+    </div>
+</a>
+<a href="tours/One-Day-Tours/Private-Same-Day-Taj-Mahal-and-Agra-Tour-by-Car.html">
+    <div class="tours-item">
+        <img src="img/UrpU24qivUpyN1VNe01BexCyz.jpg" alt=" Private Same Day Taj Mahal and Agra Tour by Car" />
+
+        <div class="tours-info">
+            <p class="best_seller">BEST SELLER</p>                <div class="tours-info-icon">
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Agra,                    </p>
+                    <div>
+                        <div class="star-rating">
+
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>
+                            537 reviews
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="tours-title">
+                     Private Same Day Taj Mahal and Agra Tour by Car                </p>
+
+                <div class="tours-info-icon">
+                    <p><i class="fas fa-stopwatch"></i>
+                        12 Hours                    </p>
+                    <p class="tours-rate">Starting At <b>$42 </b></p>
+                </div>
+        </div>
+    </div>
+</a>
+
+</div>
+
+
+
+<p class="p-heading" id="rajshthan_tour">Popular Travel Packages In</p>
+<h2 class="h1-heading">
+    Rajasthan Tours</h2>
+
+<div class="locations-details">
+    <a href="tours/rajasthan-tours/rajasthan-heritage-cities-tour-with-agra-12D-11N.html">
+    <div class="tours-item">
+        <img src="img/GDpZdxk0gt6JKsw6VZllhfYab.jpg" alt="Rajasthan Heritage Cities Tour with Agra 12D 11N" />
+
+        <div class="tours-info">
+            <p class="best_seller">BEST SELLER</p>                <div class="tours-info-icon">
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Delhi,                    </p>
+                    <div>
+                        <div class="star-rating">
+
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>
+                            117 reviews
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="tours-title">
+                    Rajasthan Heritage Cities Tour with Agra 12D 11N                </p>
+
+                <div class="tours-info-icon">
+                    <p><i class="fas fa-stopwatch"></i>
+                        12D 11N                    </p>
+                    <p class="tours-rate">Starting At <b>$180 </b></p>
+                </div>
+        </div>
+    </div>
+</a>
+<a href="tours/rajasthan-tours/Maharaja-Rajasthan-Tour-with-Agra-and-Varanasi-20N-21D.html">
+    <div class="tours-item">
+        <img src="img/aCoZGuuEXFFfOgWHZw9utaQSj.png" alt="Maharaja Rajasthan Tour with Agra and Varanasi 20N 21D" />
+
+        <div class="tours-info">
+            <p class="best_seller">BEST SELLER</p>                <div class="tours-info-icon">
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Delhi,Agra,Jaipur                    </p>
+                    <div>
+                        <div class="star-rating">
+
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>
+                            102 reviews
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="tours-title">
+                    Maharaja Rajasthan Tour with Agra and Varanasi 20N 21D                </p>
+
+                <div class="tours-info-icon">
+                    <p><i class="fas fa-stopwatch"></i>
+                        21D 20N                    </p>
+                    <p class="tours-rate">Starting At <b>$445 </b></p>
+                </div>
+        </div>
+    </div>
+</a>
+</div>
+
+
+
+<p class="p-heading" id="golden_tour">Popular Travel Packages In</p>
+<h2 class="h1-heading">
+    Golden Triangle Tours</h2>
+
+<div class="locations-details">
+    <a href="tours/Golden-Triangle-Tours/3-days-golden-triangle-tour.html">
+    <div class="tours-item">
+        <img src="img/ENmqSbTvmRDF1ihaoxlk4ZJm7.jpg" alt=" 3 days golden triangle tour" />
+
+        <div class="tours-info">
+            <p class="best_seller">BEST SELLER</p>                <div class="tours-info-icon">
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Delhi,Agra,Jaipur                    </p>
+                    <div>
+                        <div class="star-rating">
+
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p>
+                            449 reviews
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="tours-title">
+                     3 days golden triangle tour                </p>
+
+                <div class="tours-info-icon">
+                    <p><i class="fas fa-stopwatch"></i>
+                        3 days golden triangle                    </p>
+                    <p class="tours-rate">Starting At <b>$85.00 </b></p>
+                </div>
+        </div>
+    </div>
+</a>
+<a href="tours/Golden-Triangle-Tours/Golden-Triangle-tour-with-Ranthambore-wildlife-Safari-4N5D.html">
+    <div class="tours-item">
+        <img src="img/0y89ip9JFvlG9kErJ1BVDHB4e.jpg" alt="Golden Triangle Tour with Ranthambore Wildlife Safari 4 Night 5 Days" />
+
+        <div class="tours-info">
+            <p class="best_seller">BEST SELLER</p>                <div class="tours-info-icon">
+                    <p><i class="fas fa-map-marker-alt"></i>
+                        Delhi,Agra,Jaipur                    </p>
+                    <div>
+                        <div class="star-rating">
+
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>
+                            245 reviews
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="tours-title">
+                    Golden Triangle Tour with Ranthambore Wildlife Safari 4 Night 5 Days                </p>
+
+                <div class="tours-info-icon">
+                    <p><i class="fas fa-stopwatch"></i>
+                        5D4N                    </p>
+                    <p class="tours-rate">Starting At <b>$150 </b></p>
+                </div>
+        </div>
+    </div>
+</a>
+</div>
+
+
+            </section>
+
+            <!-- please compelete this section according to requirements -->
+            <div class="second-section">
+
+                <p class="p-heading">Best Staying Places</p>
+                <h2 class="h1-heading">Explore Our Best Tours</h2>
+
+                <div class="second-section-grid">
+
+                                        <div class="train-1">
+
+                        <img src="img/ldK41LLiY6T36fbDCcg5rc1JH.png" alt="">
+
+                        <div class="tour_category_info">
+                            <p>
+                                One Day Tours                            </p>
+                            <p class="tour_count">
+                                11 Tours
+                            </p>
+                        </div>
+
+                    </div>
+                                        <div class="train-1">
+
+                        <img src="img/kpKR5L4cektr66fzn54Ru3Zxh.png" alt="">
+
+                        <div class="tour_category_info">
+                            <p>
+                                Rajasthan Tours                            </p>
+                            <p class="tour_count">
+                                2 Tours
+                            </p>
+                        </div>
+
+                    </div>
+                                        <div class="train-1">
+
+                        <img src="img/x92xCFypvKE95H74Fwdj99iNU.png" alt="">
+
+                        <div class="tour_category_info">
+                            <p>
+                                Golden Triangle Tours                            </p>
+                            <p class="tour_count">
+                                2 Tours
+                            </p>
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+
+            <!-- in this section only two  div -->
+            <section class="third-section">
+
+                <div class="elfsight-app-f98d4b23-ea95-4f59-95a2-29352fdde5f9"></div>
+
+                <style>
+                    .elfsight-app-f98d4b23-ea95-4f59-95a2-29352fdde5f9>div>div>a:last-child {
+                        visibility: hidden;
+                    }
+
+                </style>
+
+            </section>
+
+
+            <!-- place to explore  -->
+            <section class="fourth-section">
+
+                <h2 class="h1-heading">Places
+                    to Explore
+                </h2>
+
+                <!-- divided into part by grid -->
+                <div class="fourth-section-grid">
+
+                    <div class="fourth-section-grid-left">
+                        <div class="places img-001"></div>
+                        <div class="places img-002"></div>
+                        <div class="places img-003"></div>
+                        <div class="places img-004"></div>
+                    </div>
+
+                    <!-- here display grid is not used -->
+                    <div class="fourth-section-grid-right">
+
+                        <h5>Destinations Covered</h5>
+                        <p>Agra, the place that is known for the Taj Mahal, the landmark that has come to forever
+                            symbolize
+                            love, is a city of rich chronicled and building legacy which is visited by an enormous
+                            number of
+                            vacationers consistently.
+                            The imperial state of Rajasthan is situated in the north-western area of India. This
+                            astounding
+                            state is famous for its magnificence and valor of past lords, brilliant and rich social
+                            legacy.
+                            Tailor-Made Tour Packages are a standout amongst the ideal approaches to travel bother-free.
+                            With consistent arranging, game plans, and exchanges being dealt with, booking vacation
+                            packages
+                            is the ideal approach to investigate the
+                            world’s differed sceneries.</p>
+
+                        <!-- margin top in px -->
+                        <button class="yellow-button" onclick="window.location.href='contactus.html'"> Enquiry
+                            Now</button>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section>
+                <style>
+    .faq-container {
+        padding: 1% 5%;
+    }
+
+    .qna {
+
+        height: max-content;
+        margin-top: 10px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .qna>details {
+        /* border: 1px solid var(--color-bg-1); */
+        border-bottom: 1px solid rgb(219, 219, 219);
+
+        padding: 1% 0;
+    }
+
+    .qna>details>summary {
+        font-size: 17px;
+        font-weight: 500;
+        color: #223b67;
+        cursor: pointer;
+        padding: 8px 15px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .qna>details>summary>i {
+        margin-right: 10px;
+    }
+
+    .qna>details>p {
+        font-size: 15px;
+        margin-top: 5px;
+        padding: 8px 15px;
+    }
+
+</style>
+
+
+
+
+<div class="faq-container">
+    <div class=" box qna">
+        <p class="box-heading"> Frequently asked questions (FAQ) </p>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                What Travel Documents Do I Need ?            </summary>
+            <p>
+                One most important document is passport which is valid for minimum 6 months from the date of entry into
+                India. Many countries have been included in the list of countries whose citizens are provided E-Visa
+                facility provided they apply 72 hours in advance. Other nationals need to obtain Indian visa in advance
+                to enter India.             </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                What Is the Best Time to Visit India ?            </summary>
+            <p>
+                It depends on which part of India if you wish to visit. In case you are interested in visiting Ladakh or
+                other parts of Himalaya then summer season is the best time. If you want to visit Rajasthan, other parts
+                of North India or South India then winter season ( September to till March ) is ideal period. Even
+                travelling during monsoon months (July – September) is also not a bad idea to visit northern india and
+                other places it presents a good tourism opportunity during this time as one can stay at Luxury or Palace
+                hotels without spending a fortune during those months.            </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                What Services Do We Offer ?            </summary>
+            <p>
+                We provide every kind of travel related services for any occasion – business or pleasure or both. We
+                organize all arrangements for conferences. We specialize in inbound tours, weddings and honeymoons,
+                pilgrimage tours, adventure tours or any special interest tours anywhere in India. We offer tailor made
+                tours on the clients request .            </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                Do You Provide Only All Inclusive Package Tours ?            </summary>
+            <p>
+                We offer all inclusive package tours. but on request, we can also provide particular services only viz.
+                hotel reservation, car / coach hire with driver, flight / train tickets, etc for those who do not want
+                to buy entire services from us for any reason.            </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                How Can I Book My Tour with You ?            </summary>
+            <p>
+                If you are interested in booking any of our brochure tours, you may, You may simply send us an email
+                giving us your details.            </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                What about Payment Terms ?            </summary>
+            <p>
+                We normally need an advance amount once we are able to confirm you arrangements for the tour. The amount
+                depends on the services you may require for the tour. This can be paid through bank transfer (before
+                arrival) credit card, traveler’s cheque or cash. We need balance payment before arrival. The exact terms
+                will be given at the time of reservation.            </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                What If I Have to Make Any Changes in the Tour for Any Reason ?            </summary>
+            <p>
+                We shall do our best to make changes as per your request and shall not charge you anything unless there is penalty charged by principal suppliers for making these changes.            </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                Who Will I Meet on My Arrival in India ?            </summary>
+            <p>
+                You will be greeted by our representative at airport on your arrival. He shall be holding a placard of your name for identification. We shall also provide you list of emergency 24 hours contact numbers for any emergency.            </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                If I Come Across Any Problem During My Trip, How Would You Help Me ?            </summary>
+            <p>
+                We provide truly 24 X 7 assistance. Our office is open 24 hours a day which means that you will always have someone to assist you even at any point of time. We shall also give you mobile nos. of executives
+who you may call in case of any need .            </p>
+        </details>
+
+        
+        <details>
+            <summary><i class="far fa-hand-point-right"></i>
+                Do I Need Medical/travel Insurance ?            </summary>
+            <p>
+                Yes. It is advisable that you buy a comprehensive medical / travel insurance in advance from your country before travelling to India.            </p>
+        </details>
+
+        
+    </div>
+</div>
+            </section>
+
+            <!-- last section of home page  -->
+            <section class=" fifth-section">
+
+                <!-- in this div is main problem is backgroundimage please check for width 700px( screen size) -->
+                <div class="explore-bg">
+
+                    <!-- content fill use absolute -->
+                    <div class="explore-bg-content">
+
+                        <p><b>Choose Your Adventure at one place with Ease</b></p>
+                        <p>Intour offers hundreds of tours and activities for travelers around the globe.
+                            Choose
+                            from sightseeing tours to spa escapes to interactive cultural programs and so much more.
+                            Intour is the only way to travel.</p>
+                        <button class="yellow-button" onclick="window.location.href='tours.html'">Explore
+                            Now</button>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+
+        </main>
+
+
+
+
+        <footer>
+
+    <section class="section-container-padding">
+        <div class="brand-info">
+            <img src="./img/intour-low-resolution-logo-white-on-transparent-background.png" alt="Intour" height="57">
+            
+            <p>We makes delicate and moderate alluring India travel package for Agra, Delhi and Rajasthan to suit the
+                requirements of each traveler.
+            </p>
+
+            <div class="social-media-icons">
+                <img src="assets/images/icon-facebook.png" alt="FaceBook Icon" height="35" width="35"
+                     alt="TripAdvisor Icon" height="35" width="35"
+                     />
+                <img src="assets/images/icon-instagram.png" alt="Instagram Icon" height="35" width="35"
+                    />
+            </div>
+
+        </div>
+        <div class="  link-section-item m-l-5">
+
+            
+
+        </div>
+        <div class="link-section-item m-l-5">
+            <h2>LINKS</h2>
+
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="aboutus.html">About Us</a>
+                </li>
+
+                <li>
+                    <a href="tours/index.html">Tours</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQs</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+                
+            </ul>
+
+        </div>
+
+        <div class="link-section-item">
+            <h2>QUICK LINKS
+            </h2>
+
+            <ul>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Cancellation Policy</a>
+                </li>
+                <li>
+                    <a href="#">Terms And Conditions</a>
+                </li>
+                <li>
+                    <a href="#">SiteMap</a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="link-section-item">
+            <h2>Contact Us
+            </h2>
+
+            <ul>
+                <li>
+                    <a href="tel:+916387688364">
+                        <i class="fas fa-phone"></i>
+                        <i class="fab fa-whatsapp"></i>
+                        +91 6387688364</a>
+                </li>
+                <li>
+                    <a href="tel:+91 6387688364">
+                        <i class="fas fa-phone"></i>
+                        <i class="fab fa-whatsapp"></i> +91 6387688364</a>
+                </li>
+
+                <li>
+                    <a href="mailto:theadityasingh1234@gmail.com"><span class="material-icons-outlined">
+                            alternate_email
+                        </span>theadityasingh1234@gmail.com </a>
+                </li>
+
+                <li>
+                    <a href="mailto:theadityasingh1234@gmail.com"><span class="material-icons-outlined">
+                            alternate_email
+                        </span> theadityasingh1234@gmail.com</a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <p>Design and Develop by <a style="font-weight: 500 ; color: white;" href="#">Aditya Singh</a>
+    </p>
+</footer>
+
+
+<button class="goto-top" id="goto-top" style="position: fixed;
+    display: none;
+    bottom: 29px;
+    right: 105px;
+    height: 45px;
+    border-radius: 100px;
+    width: 45px;
+    border: none;
+    background: var(--color-bg-2);
+    color: white;
+    font-size: 20px;">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<script>
+    // Get the button:
+    let mybutton = document.getElementById("goto-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if ((document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) && document.body.clientWidth <
+            800) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+
+        }
+
+    }
+
+    mybutton.onclick = () => {
+        topFunction();
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+</script>
+
+
+
+<script src="../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="assets/js/header.js"></script>
+<script src="assets/js/function.global.js"></script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit"></script>
+
+
+        <script src="../static.elfsight.com/platform/platform.js" defer></script>
+
+
+        <script type="text/javascript"
+            src="../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js">
+            </script>
+
+        <script type="text/javascript">
+            let GUEST_COUNT = 0;
+            let ele_guest_counter = document.getElementById("guest_counter");
+
+            document.getElementById("add").addEventListener("click", function () {
+                GUEST_COUNT++;
+                ele_guest_counter.innerHTML = GUEST_COUNT;
+                search.guest = GUEST_COUNT;
+            })
+
+            document.getElementById("remove").addEventListener("click", function () {
+
+                if (GUEST_COUNT != 0) {
+                    GUEST_COUNT--;
+                }
+                ele_guest_counter.innerHTML = GUEST_COUNT;
+                search.guest = GUEST_COUNT;
+
+            })
+
+            $(function () {
+
+
+                $('#start-date').datepicker({
+                    format: "dd/mm/yyyy",
+                    autoclose: true,
+                    todayHighlight: true,
+                    showOtherMonths: true,
+                    selectOtherMonths: true,
+                    autoclose: true,
+                    changeMonth: true,
+                    changeYear: true,
+                    minDate: 0,
+                    orientation: "button"
+                });
+                $('#end-date').datepicker({
+                    format: "dd/mm/yyyy",
+                    autoclose: true,
+                    todayHighlight: true,
+                    showOtherMonths: true,
+                    selectOtherMonths: true,
+                    autoclose: true,
+                    changeMonth: true,
+                    changeYear: true,
+                    orientation: "button"
+                });
+            });
+
+        </script>
+
+
+
+    </body>
+
+
+
+</html>
+
+
